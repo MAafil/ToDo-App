@@ -1,0 +1,21 @@
+.tasks-container {
+  background-color: #FFFFFF; /* White background color */
+  border: 2px solid #87CEEB; /* Light blue border */
+  
+}
+
+.clear-button {
+  background-color: #ff7675; /* Red color for clear button */
+}
+
+.clear-button:hover {
+  background-color: #d63031; /* Darker red on hover */
+}
+
+.tasks-heading {
+  color: #FFFFFF; /* White color for tasks heading */
+  background-color: #007bff; /* Blue color for tasks heading */
+  padding: 10px 20px;
+  border-radius: 5px;
+  margin-bottom: 20px;
+}

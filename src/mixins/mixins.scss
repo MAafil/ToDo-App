@@ -1,0 +1,19 @@
+// mixins.scss
+
+@mixin button-styles {
+    background-color: #3498db; /* Default button background color */
+    color: #ffffff;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    border-radius: 20px; /* Rounded corners */
+    transition: background-color 0.3s ease; /* Smooth transition */
+  }
+  
+  @mixin box-shadow {
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  @mixin border-radius($radius) {
+    border-radius: $radius;
+  }

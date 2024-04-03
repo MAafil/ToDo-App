@@ -1,0 +1,27 @@
+/* src/index.css */
+
+body {
+  background: linear-gradient(to right, #E9F1FA, #00ABE4); /* Updated background gradient */
+  color: #000; /* Black text color */
+  font-family: 'Arial', sans-serif; /* Updated font-family */
+}
+
+button {
+  background-color: #00ABE4; /* Bright blue background for buttons */
+  color: #fff; /* White text color for buttons */
+  padding: 10px 20px;
+  border: none;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #0077b6; /* Darker shade on button hover */
+}
+
+h2 {
+  color: #00ABE4; /* Bright blue text color for headings */
+}
+
+hr {
+  border-color: #00ABE4; /* Bright blue color for horizontal lines */
+}

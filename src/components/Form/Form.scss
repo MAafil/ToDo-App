@@ -1,0 +1,63 @@
+/* Form.scss */
+@import '../../mixins/mixins';
+
+.form-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 30px;
+  border-radius: 10px;
+  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+  border: 2px solid #87CEEB; /* Light blue border */
+  width: 100%;
+  box-sizing: border-box;
+
+  h2 {
+    color: #007bff; /* Changed color to main menu button color */
+    margin-bottom: 20px; /* Increased margin-bottom for better spacing */
+  }
+
+  .form-group {
+    margin-bottom: 20px; /* Increased margin-bottom for better spacing */
+    width: 100%;
+
+    label {
+      margin-bottom: 10px; /* Increased margin-bottom for better alignment */
+      font-weight: bold; /* Added font-weight for label */
+    }
+
+    input#description,
+    select#status {
+      width: 97%;
+      padding: 8px; /* Reduced padding for better input appearance */
+      border: 1px solid #ccc; /* Light gray border */
+      border-radius: 8px; /* Slightly increased border-radius */
+      font-size: 14px; /* Reduced font-size for input fields */
+    }
+  }
+
+  .button-container {
+    margin-top: 20px; /* Reduced margin-top for better spacing */
+    display: flex;
+    justify-content: center;
+  }
+
+  .btn {
+    padding: 12px 25px; /* Slightly increased padding for better button appearance */
+    border: none;
+    border-radius: 8px; /* Slightly increased border-radius */
+    font-size: 16px; /* Reduced font-size for better readability */
+    cursor: pointer;
+    transition: background-color 0.3s ease; /* Added transition effect */
+    width: 100%; /* Increased button width to 55% of container */
+  }
+
+  .btn-primary {
+    background-color: #007bff; /* Changed background color to main menu button color */
+    color: #fff; /* White text color */
+  }
+
+  .btn-primary:hover {
+    background-color: #0056b3; /* Darker shade of blue on hover */
+  }
+}

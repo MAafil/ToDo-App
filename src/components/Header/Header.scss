@@ -1,0 +1,47 @@
+/* Header.scss */
+
+@import '../../mixins/mixins';
+
+.header {
+  background-color: #f8f9fa; /* Light background color */
+  padding: 20px;
+  border-bottom: solid 5px #0f0e0c; /* Border color */
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.title {
+  font-weight: bold;
+  font-size: 24px;
+  color: #16140d;
+  display: flex;
+  align-items: center;
+}
+
+.logo {
+  font-size: 28px;
+  margin-right: 10px;
+}
+
+.todo-app {
+  font-size: 24px;
+}
+
+.border {
+  height: 24px;
+  width: 2px;
+  background-color: #F4D03F;
+  margin: 0 10px;
+}
+
+.author {
+  font-size: 16px;
+  color: #0a0605;
+}
+
+.react-icon {
+  font-size: 24px;
+  margin-left: 10px;
+  color: hsl(69, 78%, 2%);
+}

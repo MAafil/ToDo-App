@@ -1,0 +1,137 @@
+/* App.scss */
+
+.app-container {
+  min-height: 100vh;
+  background-color: #87CEEB; /* Light blue background color */
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 0; /* Adjusted padding */
+  zoom: 1.21; /* Adjust zoom level as needed */
+}
+
+.content {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 40px;
+  margin-top: 40px;
+}
+
+.tasks-container,
+.form-container {
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+  border: 2px solid #f0f0f0; /* Light gray border */
+  width: 100%;
+  box-sizing: border-box;
+}
+
+.task-item {
+  background-color: #ffffff; /* White background color */
+  padding: 15px;
+  margin-bottom: 15px;
+  border-radius: 8px;
+  box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.1);
+  color: #000; /* Black text color */
+}
+
+.task-item h3 {
+  margin: 0;
+  font-size: 18px;
+}
+
+.task-item button {
+  background-color: #00ABE4; /* Bright blue color for buttons */
+  color: #fff;
+  border: none;
+  padding: 8px 12px;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease; /* Added transition effect */
+}
+
+.task-item button:hover {
+  background-color: #0077b6; /* Darker shade on button hover */
+}
+
+.form-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.clear-tasks {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.clear-tasks button {
+  background-color: #ff7675; /* Red color for clear tasks button */
+  color: #fff;
+  border: none;
+  padding: 8px 12px;
+  border-radius: 5px;
+  cursor: pointer;
+  margin-top: 10px;
+  transition: background-color 0.3s ease; /* Added transition effect */
+}
+
+.clear-tasks button:hover {
+  background-color: #d63031; /* Darker red on hover */
+}
+
+.button-link {
+  text-decoration: none;
+  background-color: #00ABE4; /* Bright blue color for button links */
+  color: #fff;
+  padding: 10px 20px;
+  border-radius: 5px;
+  border: none;
+  cursor: pointer;
+  margin-bottom: 20px;
+  transition: background-color 0.3s ease;
+  display: inline-block;
+  font-size: 16px;
+  font-weight: bold;
+}
+
+.button-link:hover {
+  background-color: #0077b6; /* Darker shade on hover */
+}
+
+.submenu-container {
+  margin-top: 20px;
+}
+
+.submenu-container ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+.submenu-container li {
+  margin-bottom: 10px;
+}
+
+.submenu-container li a {
+  text-decoration: none;
+  color: #000; /* Black text color */
+  display: inline-block;
+  padding: 5px 10px;
+  border-radius: 5px;
+  background-color: #007bff; /* Bright blue color for submenu links */
+  transition: background-color 0.3s ease;
+}
+
+.submenu-container li a:hover {
+  background-color: #007bff; /* Darker shade on hover */
+}
+
+.not-found {
+  text-align: center;
+  color: #fff; /* White text color */
+  font-size: 24px;
+  margin-top: 40px;
+}
